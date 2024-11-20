@@ -10,7 +10,7 @@ bridge = pd.read_csv(filename,
                      parse_dates=True,
                      index_col='hour_beginning')
 
-st.subheader('Brooklyn Bridge Pedestrian Crossings 2023')
+st.subheader('Brooklyn Bridge Pedestrian Crossings Joe Youn made in 2024')
 st.markdown('---')
 volume = st.radio("Pedestrian Traffic Volume",('Hourly', 'Daily', 'Weekly'))
 st.markdown('---')
